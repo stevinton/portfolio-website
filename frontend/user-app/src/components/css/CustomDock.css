@@ -1,0 +1,33 @@
+.p-dock-list-container {
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+@media (max-width: 768px) {
+    .p-dock {
+        width: 100% !important;
+    }
+    .p-dock-list-container {
+        padding: 0 10px;
+    }
+    .p-dock-item {
+        margin: 0 5px;
+    }
+    .p-dock-item img {
+        width: 30px !important;
+        height: 30px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .p-dock-list-container {
+        padding: 0 5px;
+    }
+    .p-dock-item {
+        margin: 0 3px;
+    }
+    .p-dock-item img {
+        width: 25px !important;
+        height: 25px !important;
+    }
+}
